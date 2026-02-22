@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project builds an object segmentation pipeline using classical image processing techniques on the COIL-20 dataset. Three methods are implemented and compared — Sobel, Standard Canny, and Improved Canny — without using any machine learning.
+This project builds an object segmentation pipeline using classical image processing techniques on the COIL-20 dataset. Three methods are implemented and compared: Sobel, Standard Canny, and Improved Canny, without using any machine learning.
 
 ## Dataset
 
-COIL-20 Processed Dataset - 20 objects, 72 angles each, 1,440 grayscale images of size 128×128 pixels.
+COIL-20 Processed Dataset - 20 objects, 72 angles each, 1,440 grayscale images of size 128×128 pixels.  
 Download: [COIL-20 Dataset](https://www.cs.columbia.edu/CAVE/software/softlib/coil-20.php)
 
 
