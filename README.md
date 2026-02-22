@@ -12,9 +12,9 @@ Download: [COIL-20 Dataset](https://www.cs.columbia.edu/CAVE/software/softlib/co
 
 ## Methods
 
-Sobel: Gaussian Blur → Sobel Gradient → Threshold → Closing → Contour → Mask 
-Canny: Gaussian Blur → Canny Edge Detection → Closing → Contour → Mask 
-Improved Canny: Bilateral Filter → Adaptive Threshold → Improved Canny → Closing → Contour → Mask
+Sobel: Gaussian Blur → Sobel Gradient → Threshold → Closing → Contour → Mask  
+Canny: Gaussian Blur → Canny Edge Detection → Closing → Contour → Mask  
+Improved Canny: Bilateral Filter → Adaptive Threshold → Improved Canny → Closing → Contour → Mask  
 
 
 ## Requirements
@@ -34,10 +34,8 @@ python visualize_pipeline.py
 
 ## Results
 
-**Sobel** — Edge Precision: Moderate, Mask Accuracy: Moderate, Overall: Acceptable
-
-**Standard Canny** — Edge Precision: High, Mask Accuracy: High, Overall: Good
-
+**Sobel** — Edge Precision: Moderate, Mask Accuracy: Moderate, Overall: Acceptable  
+**Standard Canny** — Edge Precision: High, Mask Accuracy: High, Overall: Good  
 **Improved Canny** — Edge Precision: Very High, Mask Accuracy: Very High, Overall: Best
 
 ## References
